@@ -1,44 +1,117 @@
 *{
-    padding:0px;
-    margin:0px
-}
-
-body{
-    
+    margin: 0px;
+    padding: 0px;
 }
 
 header{
-    background: #415e9b;
-    height: 82px;
-    border-bottom:1px solid #133783;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    height: 85px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;  
 }
 
-img{
-    color:white;
+h2{
+    display: flex;
+    text-align: center;
     font-size: xx-large;
-    font-family:'Times New Roman';
+    margin-left: 200px;
+    padding-top: 20px;
+    height: 20px;
 }
 
-.header-block{
-    width: 992px;
-    margin:0 auto
+.luz{
+    text-align: justify;
+    margin-left: 300px;
+    padding-top: 10px;
 }
 
-.logo{
-    width: 50%;
-    float: left;
+.pluz{
+    text-align: justify;
+    padding-top: 10px;
+    margin-right: 280px;
+}
+.pluz a{
+    color:white;
+    text-decoration: none;
 }
 
-.facebook-login{
-    width: 50%;
-    float: right;
+button{
+    color: white;
+    background-color: blue;
 }
 
-.logo img{
-    padding-bottom: 28px;
-    padding-top: 30px;
+body{
+    background-color: lightgrey;
+    margin: 0px;
 }
 
-.password{
+aside{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+section{
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.moni{
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right:100px;
+    margin-top: 10px;
+    margin-bottom: 200px;    
+}
+
+.moni h1{
+    font-size: larger;
+
+}
+
+.moni p{
+    font-style: normal;
+}
+    
+.moni input{
+    padding-right: 5%;
+}
+
+
+
+.moni h5{
+    text-align:right;   
+}
+
+footer{
+    font-size: larger;
+    text-align: right;
+}
+
+.moni h4{
+    display: flex;
+    text-align: justify;
+    flex-direction: row;
+}
+
+.moni button{
+    font-size: 15px;
+    text-align: justify;
+    background-color: green;
+    color: white;
+    padding-left: 20px;
     padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 13px;
 }
